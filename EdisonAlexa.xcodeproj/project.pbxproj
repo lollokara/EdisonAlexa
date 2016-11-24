@@ -6,10 +6,27 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		EDAA3A561DE1FC5300E86AF0 /* debounce_handler.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = debounce_handler.py; sourceTree = "<group>"; };
+		EDAA3A581DE1FC5300E86AF0 /* example-mqtt.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "example-mqtt.py"; sourceTree = "<group>"; };
+		EDAA3A591DE1FC5300E86AF0 /* fauxmo.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = fauxmo.py; sourceTree = "<group>"; };
+		EDAA3A5A1DE1FC5300E86AF0 /* name_port_gpio.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = name_port_gpio.py; sourceTree = "<group>"; };
+		EDAA3A5B1DE1FC5300E86AF0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EDAA3A5C1DE1FC5300E86AF0 /* requirements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = requirements.txt; sourceTree = "<group>"; };
+		EDAA3A5D1DE2065300E86AF0 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		EDAA3A4B1DE1FBF600E86AF0 = {
 			isa = PBXGroup;
 			children = (
+				EDAA3A5D1DE2065300E86AF0 /* main.py */,
+				EDAA3A561DE1FC5300E86AF0 /* debounce_handler.py */,
+				EDAA3A581DE1FC5300E86AF0 /* example-mqtt.py */,
+				EDAA3A591DE1FC5300E86AF0 /* fauxmo.py */,
+				EDAA3A5A1DE1FC5300E86AF0 /* name_port_gpio.py */,
+				EDAA3A5B1DE1FC5300E86AF0 /* README.md */,
+				EDAA3A5C1DE1FC5300E86AF0 /* requirements.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -22,7 +39,8 @@
 			buildConfigurationList = EDAA3A531DE1FBF700E86AF0 /* Build configuration list for PBXLegacyTarget "EdisonAlexa" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/bin/make;
+			buildToolPath = /usr/bin/python;
+			buildWorkingDirectory = /Volumes/ExtHDD/Sviluppo/EdisonAlexa;
 			dependencies = (
 			);
 			name = EdisonAlexa;
@@ -184,6 +202,7 @@
 				EDAA3A551DE1FBF700E86AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
